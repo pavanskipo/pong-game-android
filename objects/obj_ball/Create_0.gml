@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-with (obj_player2) dir = -1
+hspeed = global.ball_speed;
+vspeed = random(10) - 10;

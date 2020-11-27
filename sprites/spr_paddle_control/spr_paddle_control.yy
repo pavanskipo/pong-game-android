@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"96a1c82c-fa88-4224-9192-1f8de236cf62","path":"sprites/Sprite2/Sprite2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"96a1c82c-fa88-4224-9192-1f8de236cf62","path":"sprites/Sprite2/Sprite2.yy",},"LayerId":{"name":"e52cb580-047b-4e96-9960-d36a3d6a2804","path":"sprites/Sprite2/Sprite2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"resourceVersion":"1.0","name":"96a1c82c-fa88-4224-9192-1f8de236cf62","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"96a1c82c-fa88-4224-9192-1f8de236cf62","path":"sprites/spr_paddle_control/spr_paddle_control.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"96a1c82c-fa88-4224-9192-1f8de236cf62","path":"sprites/spr_paddle_control/spr_paddle_control.yy",},"LayerId":{"name":"e52cb580-047b-4e96-9960-d36a3d6a2804","path":"sprites/spr_paddle_control/spr_paddle_control.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_paddle_control","path":"sprites/spr_paddle_control/spr_paddle_control.yy",},"resourceVersion":"1.0","name":"96a1c82c-fa88-4224-9192-1f8de236cf62","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},
+    "spriteId": {"name":"spr_paddle_control","path":"sprites/spr_paddle_control/spr_paddle_control.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ed4b7bc6-9d73-4b05-8c78-07e95935e8a4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"96a1c82c-fa88-4224-9192-1f8de236cf62","path":"sprites/Sprite2/Sprite2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ed4b7bc6-9d73-4b05-8c78-07e95935e8a4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"96a1c82c-fa88-4224-9192-1f8de236cf62","path":"sprites/spr_paddle_control/spr_paddle_control.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 25,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},
+    "parent": {"name":"spr_paddle_control","path":"sprites/spr_paddle_control/spr_paddle_control.yy",},
     "resourceVersion": "1.3",
-    "name": "Sprite2",
+    "name": "spr_paddle_control",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -72,7 +72,7 @@
     "path": "pong-game-android.yyp",
   },
   "resourceVersion": "1.0",
-  "name": "Sprite2",
+  "name": "spr_paddle_control",
   "tags": [],
   "resourceType": "GMSprite",
 }
